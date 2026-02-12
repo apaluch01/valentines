@@ -6,9 +6,23 @@
   background-color: #cda0ff;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
 body {
   font-family:
     system-ui,
     -apple-system,
     sans-serif;
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }

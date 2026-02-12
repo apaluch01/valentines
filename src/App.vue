@@ -93,10 +93,6 @@ const onClickYes = () => {
 </template>
 
 <style scoped>
-:global(html, body) {
-  overflow: hidden;
-}
-
 * {
   transition: transform 220ms ease;
 }
