@@ -145,13 +145,14 @@ const onClickYes = () => {
 .gif {
   display: flex;
   justify-content: center;
-  max-height: 90%;
+  min-height: 90%;
+  max-height: 100%;
   transition: transform 220ms ease;
 }
 
 .gif + h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   max-height: 90%;
   color: #333;
   margin: 0;
@@ -159,8 +160,8 @@ const onClickYes = () => {
 
 .button {
   margin: 0 0.5rem;
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
+  padding: 2rem 4rem;
+  font-size: 2.5rem;
   background-color: #b879ff;
   color: white;
   border: none;
